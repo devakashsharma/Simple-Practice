@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #111827;
+    color: #ffffff;
+}
+/* Navigation Bar */
+nav {
+    margin: 20px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    gap: 30px;
+}
+
+nav ul li {
+    list-style: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.box {
+    padding: 5px 10px;
+    background-color: #5c5cf0;
+    border-radius: 20px;
+}
+
+img[alt="menu"] {
+    width: 20px;
+    display: none;
+}
+
+/* Hero Section */
+.hero-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin: 20px;
+}
+
+img[alt="Hi"] {
+    width: 30px;
+}
+
+.left-content-hi {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.left-content-name {
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+}
+
+.greet {
+    font-size: 30px;
+}
+
+span {
+    font-size: 20px;
+}
+.dev-name {
+    font-size: 50px;
+    font-weight: 800;
+}
+.pro-job {
+    color: #eeee39;
+}
+
+/* Right Content */
+img[alt="pc-image"] {
+    width: 30vw;
+}
+
+/* projects */
+.projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.pro-head {
+    font-size: 40px;
+    font-weight: 900;
+}
+.pro-uline {
+    height: 8px;
+    width: 150px;
+    background-color: #0000ff;
+    border-radius: 5px;
+}
+
+.pro-image {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    row-gap: 20px;
+    column-gap: 40px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+ .project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} 
+
+img[alt="p-img"] {
+    width: 20vw;
+}
+
+footer { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.foot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+}
+
+.foot-head {
+    margin: 20px;
+}
+.contact {
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.foot-uline {
+    height: 8px;
+    width: 210px;
+    background-color: #0000ff;
+    border-radius: 5px;
+    
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+img[alt="soc-icons"] {
+    width: 30px;
+}
+
+/* Hover */
+ul li:hover {
+    text-decoration: underline;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+img:hover {
+    cursor: pointer;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 576px) {
+    ul li {
+        display: none;
+    }
+
+    img[alt="menu"] {
+        display: block;
+    }
+    .greet {
+        font-size: 25px;
+    }
+    .dev-name {
+        font-size: 35px;
+    }
+    .pro-job {
+        font-size: 30px;
+    }
+
+    .hero-section {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .left-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .left-content-hi {
+        display: flex;
+        flex-direction: column;
+    }
+
+    img[alt="pc-image"] {
+        width: 60vw;
+    }
+
+    /* Projects */
+    .projects {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .pro-head {
+        font-size: 30px;
+    }
+    .pro-uline {
+        width: 112px;
+    }
+    .project {
+        font-size: 12px;
+    }
+    
+    .pro-image {
+        display: flex;
+        flex-direction: column;
+    }
+
+    img[alt="p-img"]{
+        width: 50vw;
+    }
+
+    /* Footer */
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contact {
+        font-size: 30px;
+    }
+
+    .foot-head {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .foot-uline {
+        width: 160px;
+    }
+
+    img[alt="soc-icons"] {
+        width: 5vw;
+    }
+}
