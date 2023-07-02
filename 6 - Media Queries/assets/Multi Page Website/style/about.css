@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+/* body */
+body {
+    background-color: #f0f4f5
+}
+
+nav {
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px 100px;
+}
+
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+nav ul li {
+    list-style: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-right: 80px;
+}
+
+/* Hero Section */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+    padding: 0px 100px;
+}
+
+main div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+    height: 100px;
+    width: 200px;
+}
+
+.mainHead {
+    font-size: 33px;
+    font-weight: 700;
+    color: #20BC7E;
+    margin-bottom: 20px;
+}
+
+main p {
+    font-size: 18px;
+    text-align: center;
+    font-weight: 300;
+}
+
+.boxes h1 {
+    font-size: 25px;
+    font-weight: 700;
+    color: #20BC7E;
+}
+
+.boxes p {
+    margin-top: -15px;
+    font-size: 19px;
+    font-weight: 500;
+}
+

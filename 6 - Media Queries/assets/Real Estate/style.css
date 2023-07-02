@@ -1,0 +1,392 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #000000;
+  font-family: "Manrope";
+}
+
+/* Body */
+body {
+  background-color: #f6f8fa;
+}
+
+/* Header Section */
+header {
+  background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./photos/mainBackground.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 125vh;
+  background-position: center;
+  position: relative;
+}
+
+/* Navigation Bar */
+img[alt="logoImg"] {
+  width: 110px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 25px;
+}
+
+nav ul {
+  display: flex;
+}
+
+li {
+  list-style: none;
+}
+
+nav ul li {
+  color: #ffffff;
+  margin-right: 50px;
+  font-size: 18px;
+}
+
+hr {
+  margin: 0px 100px;
+}
+
+header div button {
+  color: #ededf6;
+}
+
+/* Hero Section */
+.hero-section {
+  margin-left: 150px;
+  margin-top: 90px;
+}
+
+.hero-section h1 {
+  font-size: 70px;
+  line-height: 90px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  color: #ededf6;
+}
+
+.hero-section p {
+  font-size: 18px;
+  margin-bottom: 25px;
+  color: #ededf6;
+  width: 400px;
+  line-height: 25px;
+  font-weight: 400;
+}
+
+.hero-btn {
+  background-color: #6663e9;
+  border-radius: 20px;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 15px 30px;
+  border: none;
+}
+
+/* Logo Section */
+.logoSection {
+  height: 190px;
+  background-color: #ffffff;
+  margin: 0px 40px;
+  position: relative;
+  bottom: 100px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+img[alt="logo2Img"] {
+  height: 40px;
+  width: 150px;
+}
+
+/* Main Content Section */
+.mainContHead {
+  color: #000000;
+  font-size: 60px;
+  text-align: center;
+}
+
+.upperContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+img[alt="contImg"] {
+  width: 360px;
+  height: 400px;
+  border-radius: 30px;
+}
+
+.cardInfo {
+  height: 120px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: #ffffff;
+  position: relative;
+  bottom: 50px;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.cardInfo h2 {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.cardInfo p {
+  font-weight: 700;
+  font-size: 20px;
+  color: #6663e9;
+}
+
+.cardInfo button {
+  height: 50px;
+  width: 120px;
+  border-radius: 25px;
+  border: none;
+  background-color: #6663e9;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.card {
+  flex-basis: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.card:nth-child(2) {
+  margin-top: 50px;
+}
+
+.card:nth-child(3) {
+  margin-top: 100px;
+}
+
+.card:nth-child(4) {
+  margin-top: 100px;
+}
+
+.card:nth-child(5) {
+  margin-top: 50px;
+}
+
+.card:nth-child(8) {
+  margin-top: 50px;
+}
+
+.card:nth-child(9) {
+  margin-top: 100px;
+}
+
+/* Features Image Section */
+.feature-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 100px 0px 200px;
+}
+
+.feature-section div {
+  width: 50%;
+}
+
+.first-feature-section div:first-child img:first-child {
+  height: 450px;
+  width: 700px;
+  position: absolute;
+  z-index: -1;
+  left: -60px;
+}
+
+img[alt="mainFeatureImg"] {
+  height: 400px;
+  width: 389px;
+  position: relative;
+  bottom: 50px;
+  left: 130px;
+  border-radius: 60px;
+}
+
+.feature-Image img:first-child {
+  position: absolute;
+  right: 200;
+  width: 726px;
+  height: 456px;
+}
+
+.second-feature-section div:last-child img:first-child {
+  right: 0px;
+  height: 450px;
+  width: 600px;
+  position: absolute;
+  z-index: -1;
+}
+
+.second-feature-section div:last-child img:last-child {
+  /* margin: 28px 0px ; */
+  position: relative;
+  left: 240px;
+}
+
+.feature-section div h1 {
+  font-size: 60px;
+  font-weight: 800;
+}
+
+.feature-section div p {
+  font-size: 18px;
+  margin: 5px 0px 30px;
+}
+
+.feature-section div button {
+  padding: 10px 30px;
+  border-radius: 20px;
+  font-size: 16px;
+  background-color: #6663e9;
+  border: none;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.second-feature-section {
+  margin-left: 50px;
+}
+
+.subscribe {
+  height: 500px;
+  background-color: #6663e9;
+  border-radius: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 80px 100px;
+  gap: 30px;
+  box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.05);
+}
+
+.subscribe h1 {
+  font-size: 60px;
+  color: #ededf6;
+  text-align: center;
+  font-weight: 700;
+}
+
+.subscribe p {
+  font-size: 18px;
+  color: #ededf6;
+  text-align: center;
+}
+
+.subscribe form {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.subscribe form div {
+  background-color: #5c5ad1;
+  height: 50px;
+  width: 420px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  padding: 0px 30px;
+  gap: 15px;
+}
+
+.subscribe form input {
+  background: transparent;
+  border: none;
+}
+
+.subscribe button {
+  height: 50px;
+  width: 150px;
+  border-radius: 30px;
+  border: none;
+  font-size: 18px;
+  color: #6663e9;
+  font-weight: 600;
+}
+
+/* Footer  */
+footer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: 80px 80px 100px;
+}
+
+.leftContent {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.leftContent p {
+  font-size: 18px;
+}
+
+.socialMediaIcon img {
+  width: 30px;
+}
+
+.leftContent div img:nth-child(2) {
+  margin-left: 10px;
+}
+
+.leftContent div img:nth-child(3) {
+  margin-left: 10px;
+}
+
+img[alt="footLogoImg"] {
+  height: 50px;
+  width: 150px;
+}
+
+.rightContent {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+
+.footMain ul li a {
+  text-decoration: none;
+}
+
+.footMain ul li:first-child {
+  margin-bottom: 15px;
+  font-size: 19px;
+  font-weight: 600;
+}
+
+.footMain ul li {
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+.footMain ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
