@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #faebd7;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+div {
+    width: 130px;
+    height: 60px;
+    background-color: #ffe4c4;
+    border: 2px solid #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#onKeyPress {
+    border-radius: 8px;
+    padding: 10px 20px;
+}
