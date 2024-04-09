@@ -3,23 +3,6 @@ const DeBtn = document.querySelector(".decre-btn");
 const resetBtn = document.querySelector(".reset-btn");
 const spanValue = document.querySelector(".span-value");
 
-// btns.forEach((items) => {
-//     items.addEventListener("click", (element) => {
-//         const clickedElement = element.currentTarget.classList;
-//         // console.log(clickedElement);
-
-//         if (clickedElement.contains("incre")) {
-//             count++;
-//         } else if (clickedElement.contains("decre")) {
-//             count--;
-//         } else {
-//             count = 0;
-//         }
-
-//         spanValue.textContent = count;
-//     })
-// })
-
 // increment value 
 inBtn.addEventListener("click", () => {
     const value = Number(spanValue.innerText);
@@ -30,6 +13,7 @@ inBtn.addEventListener("click", () => {
     }
 })
 
+// Decrement
 DeBtn.addEventListener("click", () => {
     const value = Number(spanValue.innerText);
     if (value > 0) {
@@ -40,6 +24,7 @@ DeBtn.addEventListener("click", () => {
     }
 })
 
+// Reset
 resetBtn.addEventListener("click", () => {
     spanValue.innerText = 0;
 });
