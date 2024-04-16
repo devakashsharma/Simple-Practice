@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Validator</title>
+
+    <link rel="stylesheet" href="./valid.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <form id="login-form">
+        <div id="form-div">
+            <label for="mail">Enter E-mail</label>
+            <input type="text" placeholder="abc@example.com" id="mail">
+
+            <label for="pass">Enter password</label>
+            <p id="para">(Password must contain minimum 8 characters)</p>
+            <input type="password" placeholder="password" id="password">
+        </div>
+        <button id="btn">Submit</button>
+    </form>
+    <p id="message"></p>
+
+    <script src="./valid.js"></script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    /* background-color: rgb(245, 245, 255); */
+    background-color: rgb(158, 158, 158);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 9px;
+    padding: 30px;
+    background-color: rgb(0, 0, 0);
+    font-size: 21px;
+}
+
+#form-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#para {
+    font-size: 12px;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+#btn {
+    color: black;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 7px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: rgb(191, 191, 191);
+    transition: background-color 0.3s ease
+}
+
+#mail, #password {
+    border: none;
+    padding: 2px 5px;
+    color: black;
+}
+
+.error {
+    margin-top: 30px;
+    color: red;
+}
+
+.success {
+    margin-top: 30px;
+    color: green;
+}
