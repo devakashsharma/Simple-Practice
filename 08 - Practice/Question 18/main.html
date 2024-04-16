@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Changing Text</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0;
+        }
+        #container {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        button {
+            padding: 5px 10px;
+            background-color: rgb(112, 252, 18);
+            outline: none;
+            border: 2px solid rgb(0, 0, 0);
+            border-radius: 10px;
+            font-size: 20px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h1 id="head">The most affordable plateform</h1>
+        <button id="btn">Click</button>
+    </div>
+
+    <script>
+        const head = document.getElementById("head");
+        const btn = document.getElementById('btn');
+
+        btn.addEventListener("click", () => {
+            head.innerHTML = "PW Skill";
+        })
+    </script>
+</body>
+</html>
