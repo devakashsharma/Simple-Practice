@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Highlight Long Words</title>
+    <style>
+      .highlight {
+        background-color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <p id="paragraph">
+      This is a sample paragraph with some long words like JavaScript,
+      programming, and development.
+    </p>
+
+    <script>
+      const paragraph = document.getElementById("paragraph");
+      const words = paragraph.textContent.split(/\s+/);
+
+      words.forEach((word) => {
+        if (word.length > 8) {
+          const span = document.createElement("span");
+          span.textContent = word;
+          span.classList.add("highlight");
+          paragraph.innerHTML = paragraph.innerHTML.replace(word, span.outerHTML);
+        }
+      });
+    </script>
+  </body>
+</html>
