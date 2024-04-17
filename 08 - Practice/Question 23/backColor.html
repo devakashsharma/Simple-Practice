@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Color Changer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        #root {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+
+        #btn {
+            position: absolute;
+            bottom: 0;
+            margin-bottom: 50px;
+            padding: 10px;
+            border: 2px solid white;
+            border-radius: 7px;
+            outline: none;
+            background-color: rgb(23, 193, 23);
+            color: white;
+            font-weight: 600
+        }
+
+    </style>
+</head>
+<body>
+    <div id="root">
+        <button id="btn">Click Me</button>
+    </div>
+    <script src="./backColor.js"></script>
+</body>
+</html>
